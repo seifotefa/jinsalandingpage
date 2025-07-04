@@ -1,0 +1,29 @@
+/* Custom font */
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,700&display=swap');
+
+html, body {
+  font-family: 'Satoshi', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: none;
+  scroll-behavior: auto;
+  overflow: hidden;
+  cursor: url('/ccursor.png') 16 16, auto;
+
+
+}
+
+.intro-overlay * {
+  cursor: none !important;
+}
+
+
+#root {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+section {
+  min-height: 100vh;
+}
