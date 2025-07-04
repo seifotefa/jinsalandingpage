@@ -11,7 +11,7 @@ export default function Navbar() {
           {/* Brand / Logo */}
           <a href="#" className="flex items-center space-x-2">
             <img
-              src="/logo.png"
+              src="../public/logo.png"
               alt="Jinsa Logo"
               className="h-8 w-auto sm:h-10"
             />
