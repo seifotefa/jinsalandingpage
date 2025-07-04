@@ -26,7 +26,7 @@ export default function IntroOverlay({ onFinish }) {
       }`}
     >
       <video
-        src="../public/animation.mp4"
+        src="/app/public/animation.mp4"
         autoPlay
         muted
         playsInline
