@@ -23,7 +23,7 @@ export default function TheChain() {
         <div
           className="absolute inset-0 z-0 opacity-20 pointer-events-none"
           style={{
-            backgroundImage: "url('/blankgrid.png')",
+            backgroundImage: "url('/public/blankgrid.png')",
             backgroundRepeat: 'repeat',
             backgroundSize: 'auto'
           }}
