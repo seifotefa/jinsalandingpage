@@ -4,12 +4,17 @@ export default function IntroOverlay({ onFinish }) {
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    // Fallback timeout in case video doesn't call onEnded
-    const timer = setTimeout(() => {
-      triggerFade();
-    }, 6000); // Adjust to match your video length in ms
-
-    return () => clearTimeout(timer);
+    const video = document.querySelector('video');
+    if (video) {
+      const playPromise = video.play();
+      
+      if (playPromise !== undefined) {
+        playPromise.catch(error => {
+          // Autoplay was prevented, show play button or handle fallback
+          console.error('Autoplay prevented:', error);
+        });
+      }
+    }
   }, []);
 
   const triggerFade = () => {
