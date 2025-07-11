@@ -7,7 +7,6 @@ function Footer() {
           <a href="https://instagram.com/jinsa.co" target="_blank"  rel="noopener noreferrer" className="hover:text-[#6347f1] text-xl transition">Instagram</a>
           <a 
               href="mailto:usejinsaco@gmail.com" 
-              target="_blank" 
               rel="noopener noreferrer" 
               className="hover:text-[#6347f1] text-xl transition"
             >
