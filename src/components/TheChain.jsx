@@ -6,7 +6,7 @@ export default function TheChain() {
       },
       {
         title: 'Transfer is logged',
-        description: 'Every handoff is recorded immutably — a public record of provenance.'
+        description: 'Every handoff is recorded immutably - a public record of provenance.'
       },
       {
         title: 'Scan to verify',
